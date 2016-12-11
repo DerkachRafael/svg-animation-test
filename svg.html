@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<style>
+	body{
+		background-color: black;
+	}
+	svg path {
+		stroke: #fff;
+		fill: transparent;
+
+	}
+	svg rect {
+		transform: translateY(100%);
+		fill: #ffb600;
+		animation: fill 1.5s infinite;
+		animation-timing-function: ease-in-out;
+		/* animation-direction: alternate; - repeat back tot top animation*/  
+	}
+	@keyframes fill{
+		/* from { start value } */
+		to { transform: translateY(0); }
+	}
+
+</style>
+<body>
+	
+	<svg xmlns="http://www.w3.org/2000/svg" width="213.118" height="172.516" version="1">
+		<path d="M57.17 2.235c-.838.023-1.683.252-2.46.7L4.832 31.733c-2.49 1.44-3.337 4.598-1.898 7.09l16.99 29.432c1.44 2.49 4.605 3.337 7.097 1.898l26.066-15.048v109.98c0 2.877 2.32 5.198 5.198 5.198h96.29c2.877 0 5.19-2.32 5.19-5.198V54.95l26.337 15.202c2.492 1.44 5.65.593 7.09-1.898l16.99-29.432c1.438-2.492.593-5.65-1.9-7.09L158.417 2.936c-1.012-.584-2.14-.79-3.212-.664-.206-.025-.415-.037-.628-.037h-27.584c-.41 3.273-9.412 5.892-20.437 5.892s-20.02-2.62-20.43-5.892h-27.84c-.166 0-.332.014-.495.03-.207-.02-.412-.035-.62-.03z" stroke-width="4.468"/>
+		<clippath id="shirt">
+			<path d="M57.17 2.235c-.838.023-1.683.252-2.46.7L4.832 31.733c-2.49 1.44-3.337 4.598-1.898 7.09l16.99 29.432c1.44 2.49 4.605 3.337 7.097 1.898l26.066-15.048v109.98c0 2.877 2.32 5.198 5.198 5.198h96.29c2.877 0 5.19-2.32 5.19-5.198V54.95l26.337 15.202c2.492 1.44 5.65.593 7.09-1.898l16.99-29.432c1.438-2.492.593-5.65-1.9-7.09L158.417 2.936c-1.012-.584-2.14-.79-3.212-.664-.206-.025-.415-.037-.628-.037h-27.584c-.41 3.273-9.412 5.892-20.437 5.892s-20.02-2.62-20.43-5.892h-27.84c-.166 0-.332.014-.495.03-.207-.02-.412-.035-.62-.03z" fill="transparent" stroke="#000" stroke-width="4.468"/></clippath>
+			<g clip-path="url(#shirt)"><rect height="100%" width="100%"></rect></g>
+		</svg>
+
+	</body>
+	</html>
